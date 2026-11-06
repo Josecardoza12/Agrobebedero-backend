@@ -1,0 +1,6 @@
+CREATE TABLE linea_bebedero (
+    id      BIGINT AUTO_INCREMENT PRIMARY KEY,
+    granja  VARCHAR(80) NOT NULL,
+    galpon  VARCHAR(80) NOT NULL,
+    linea   VARCHAR(80) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
